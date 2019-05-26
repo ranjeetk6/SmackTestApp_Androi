@@ -3,6 +3,7 @@ package com.example.smacktest.ui.login
 import android.app.Activity
 import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProviders
+import android.content.Intent
 import android.os.Bundle
 import android.support.annotation.StringRes
 import android.support.v7.app.AppCompatActivity
@@ -14,6 +15,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.Toast
+import com.example.smacktest.CreateUserActivity
 
 import com.example.smacktest.R
 
@@ -105,7 +107,8 @@ class LoginActivity : AppCompatActivity() {
 
     fun loginUserCreateBtnClick(view:View){
 
-
+        val createUserIntent = Intent(this, CreateUserActivity::class.java)
+        startActivity(createUserIntent)
     }
 
 
