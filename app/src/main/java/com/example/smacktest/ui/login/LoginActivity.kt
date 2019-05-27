@@ -15,7 +15,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.Toast
-import com.example.smacktest.CreateUserActivity
+import com.example.smacktest.Controller.CreateUserActivity
 
 import com.example.smacktest.R
 
